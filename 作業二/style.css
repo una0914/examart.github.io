@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
+
+* {
+    box-sizing: border-box;
+}
+
+/* nav */
+nav {
+    width: 100%;
+    height: 120px;
+    background-color: #CBCBCB;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+nav a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 18px;
+    color: #646464;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    min-width: 85px;
+    height: 30px;
+}
+
+.navbar-list {
+    margin-top: 15px;
+    background-color: rgba(228, 228, 228, 0.6);
+    margin-left: 0PX;
+    border-radius: 15px;
+    margin-left: 250px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+nav img {
+    height: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+}
+
+.black-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #DDE2D6;
+    display: block;
+    align-items: center;
+
+}
+
+/* nav end */
+/* big title */
+.big-title {
+    width: 100%;
+    height: 140px;
+    background-color: #F5F5F5;
+}
+
+.big-title a {
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+    text-decoration: solid;
+    margin-top: 60px;
+    padding-left: 160px;
+    height: 30px;
+    align-items: center;
+}
+
+/* big title end */
+/* header */
+hr.style {
+    border: 0;
+    height: 2px;
+    background: #CBCBCB;
+}
+
+
+header {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+}
+
+.header-head {
+    width: 55%;
+    height: 240px;
+    margin-left: 5%;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 100px;
+    align-items: center;
+}
+
+header b {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 585px;
+    height: 30px;
+    align-items: center;
+}
+
+.header-img {
+    width: 40%;
+    height: 380px;
+    display: flex;
+}
+
+header img {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/* header end */
+/* article 0 */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.art0 {
+    width: 70%;
+    height: 360px;
+}
+
+.art0 a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 30px;
+    align-items: center;
+}
+
+.article0-img {
+    width: 30%;
+}
+
+.article0-img b {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 10px;
+    z-index: 999;
+    position: relative;
+    margin-top: -40px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.article0-img img {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+
+
+/* article 0 end */
+
+/* article 1 */
+.art1 {
+    width: 100%;
+    height: 355px;
+}
+
+.art1 a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-left: 90px;
+    padding-right: 140px;
+    height: 30px;
+    align-items: center;
+}
+
+/* article 1 end */
+
+/* article 2 */
+.article2-img {
+    width: 30%;
+    height: 310px;
+
+}
+
+.article2-img img {
+    height: 310px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.article2-img b {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 10px;
+    z-index: 999;
+    position: relative;
+    margin-top: -52px;
+    margin-left: 280px;
+    display: flex;
+}
+
+.art2 {
+    width: 70%;
+    height: 310px;
+}
+
+.art2 a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 140px;
+    height: 30px;
+    align-items: center;
+}
+
+/* article 2 end */
+
+/* article 3 */
+.art3 {
+    width: 58%;
+    height: 430px;
+}
+
+.art3 a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 12px;
+    padding-left: 90px;
+    padding-right: 50px;
+    height: 30px;
+    align-items: center;
+}
+
+.header-carousel {
+    width: 32%;
+    margin-top: 60px;
+    margin-right: 140;
+}
+
+/* article 3 end */
+/* article 4 */
+.art4 {
+    width: 100%;
+    height: 260px;
+}
+
+.art4 a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-left: 90px;
+    padding-right: 140px;
+    height: 30px;
+    align-items: center;
+}
+
+/* article 4 end */
+/* intro */
+.title {
+    width: 100%;
+    height: 90px;
+    background-color: #f5f5f5;
+}
+
+.title a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 140px;
+    height: 10px;
+    align-items: center;
+}
+
+.intro {
+    width: 87%;
+    height: 240px;
+    background-color: #f5f5f5;
+}
+
+.intro a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 140px;
+    height: 30px;
+    align-items: center;
+}
+
+.intro b {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-right: 140px;
+    height: 10px;
+    align-items: center;
+}
+
+.intro-img {
+    width: 13%;
+    background-color: #f5f5f5;
+}
+
+.intro-img img {
+    width: 100px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+/* intro end */
+/* footer */
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #CBCBCB;
+}
+
+footer a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 30px;
+    align-items: center;
+}
+
+.footer-list {
+    padding-left: 600px;
+}
+
+/* footer end */
